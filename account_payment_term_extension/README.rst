@@ -23,7 +23,7 @@ Payment Term Extension
     :target: https://runbot.odoo-community.org/runbot/96/15.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2| |badge3| |badge4| |badge5|
 
 This module extends the functionality of payment terms to:
 
@@ -40,6 +40,14 @@ This module extends the functionality of payment terms to:
     * with this feature, the due date of the second line is calculated from
       the due date of the first line
 
+此模块将付款条件的功能扩展到：
+
+在行中选择“百分比（未征税金额）”以使用基本金额而不是总金额（含税）。
+
+支持四舍五入，
+
+付款期限行的月份和周数允许在付款期限中设置多于一天的付款
+如果付款期限日期是假期，则推迟到选定日期允许在行上应用时间顺序例如，包含 2 行标准的付款期限，所有行的到期日从具有此功能的发票日期计算，第二行的到期日从第一行的到期日计算
 **Table of contents**
 
 .. contents::

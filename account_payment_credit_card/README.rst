@@ -23,25 +23,45 @@ Credit Card Payments
     :target: https://runbot.odoo-community.org/runbot/96/14.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2| |badge3| |badge4| |badge5|
 
 This module provides a way to record Credit Card purchases and to pay them the same way regular purchases are recorded (via Vendor Bills) and paid (via Vendor Payments).
 
 By default, if vendor bills are used to record credit card purchases, the liability (AP) from the supplier/vendor must be moved to the credit card company via a manual journal entry.
 
+该模块提供了一种记录信用卡购买和支付方式的方式，就像记录常规购买（通过供应商账单）和支付（通过供应商付款）一样。
+默认情况下，如果供应商账单用于记录信用卡购买，供应商供应商的负债 (AP) 必须通过手动日记帐分录转移到信用卡公司。
+
 Because a journal entry contains less information than a vendor bill, there may be a loss of information that affects book keeping accuracy and the ability to properly reconcile the AP amount when the credit card statement arrives and needs to be settled.
 This method also requires an additional step not needed when a vendor bill is paid via bank or cash.
 
+由于日记帐分录包含的信息少于供应商账单，因此可能会丢失信息，这会影响簿记的准确性以及在信用卡对帐单到达并需要结算时正确核对 AP 金额的能力。
+当通过银行或现金支付供应商账单时，此方法还需要一个不需要的额外步骤。
+
 This module automates the creation of the manual journal entry required to move the AP to the credit card company, retains all information about the purchase in an invoice document, and leverages the standard purchase and payment workflow already in place for bank and cash payments.
+
+该模块自动创建将 AP 转移到信用卡公司所需的手动日记帐分录，将有关购买的所有信息保留在发票文档中，并利用已经存在的标准购买和支付工作流程进行银行和现金支付。
 
 It supports as many Credit Cards as are needed, configured in the same way an additional payment method would be (i.e. via the creation of a new journal).
 
 To settle a Credit Card statement, the regular workflow to record a vendor payment is used – allowing the removal of charges not included in the statement.
 Non-purchase transactions like fees for annual membership, balance transfers, cash advances and foreign transactions; as well as charges for late payments and returned checks; can be entered either as Vendor Invoices or manual Journal Entries as users elect.
 
+支持所需数量的信用卡，配置方式与其他付款方式相同（即通过创建新日记帐）。
+
+要结算信用卡对帐单，使用记录供应商付款的常规工作流程 - 允许删除未包含在对帐单中的费用。
+
+非购买交易，如年度会员费、余额转账、现金垫款和国外交易；
+
+以及逾期付款和退回支票的费用；
+
+可以作为供应商发票或用户选择的手动日记帐分录输入。
+
 Both of these methods will allow these items to be settled when making a payment to the credit card company.
 
 This module also supports payment cancellation and re-entry (in the case a mistaken amount is entered) as well as refunds (where the purchase is returned and a credit from the credit card company will be issued).
+
+这两种方法都允许在向信用卡公司付款时结算这些项目。该模块还支持取消付款和重新输入（在输入错误金额的情况下）以及退款（退回购买并从信用卡公司发出信用卡）。
 
 **Table of contents**
 
@@ -115,7 +135,7 @@ promote its widespread use.
 
 Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-max3903| 
+|maintainer-max3903|
 
 This module is part of the `OCA/account-payment <https://github.com/OCA/account-payment/tree/14.0/account_payment_credit_card>`_ project on GitHub.
 
