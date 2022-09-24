@@ -23,11 +23,13 @@ Account Payment Widget Amount
     :target: https://runbot.odoo-community.org/runbot/96/15.0
     :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2| |badge3| |badge4| |badge5|
 
 This module adds a popover widget in the invoice form view when there
 are outstanding payments that allows the user to select the amount
 of the selected payment that wants to assign to the invoice.
+
+当有未付款项时，此模块在发票表单视图中添加一个弹出窗口小部件，允许用户选择要分配给发票的选定付款金额。
 
 .. image:: https://raw.githubusercontent.com/OCA/account-payment/15.0/account_payment_widget_amount/static/description/payment_widget.png
    :alt: Payment Widget
@@ -96,7 +98,7 @@ promote its widespread use.
 
 Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-ChrisOForgeFlow| 
+|maintainer-ChrisOForgeFlow|
 
 This module is part of the `OCA/account-payment <https://github.com/OCA/account-payment/tree/15.0/account_payment_widget_amount>`_ project on GitHub.
 
