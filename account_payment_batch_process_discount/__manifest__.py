@@ -14,5 +14,5 @@
     ],
     "development_status": "Beta",
     "maintainers": ["mgosai"],
-    "auto_install": True,
+    "auto_install": False,
 }
